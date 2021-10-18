@@ -31,12 +31,14 @@ let selectedImg = 0;
 toggleMenu.addEventListener("click", () => {
     navLinks.classList.add("show-nav");
     navFade.style.display = "block";
+    closeMenu.style.display = "block";
 })
 
 // Closes Nav Menu
 closeMenu.addEventListener("click", () => {
     navLinks.classList.remove("show-nav");
     navFade.style.display = "none";
+    closeMenu.style.display = "none";
 })
 
 // Navigates To Next Image

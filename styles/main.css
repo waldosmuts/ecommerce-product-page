@@ -68,6 +68,11 @@ header nav .nav-links a {
   margin-right: 25px;
 }
 
+header nav #close-menu {
+  display: none;
+  margin: 25px 0 50px 25px;
+}
+
 header nav .show-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -87,10 +92,6 @@ header nav .show-nav {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-}
-
-header nav .show-nav #close-menu {
-  margin: 25px 0 50px 25px;
 }
 
 header nav .show-nav a {

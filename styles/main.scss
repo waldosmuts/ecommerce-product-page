@@ -66,6 +66,10 @@ header {
                 margin-right: 25px;
             }
         }
+        #close-menu {
+            display: none;
+            margin: 25px 0 50px 25px;
+        }
         .show-nav {
             display: flex;
             flex-direction: column;
@@ -78,9 +82,6 @@ header {
             width: 250px;
             margin-left: 0;
             align-items: flex-start;
-            #close-menu {
-                margin: 25px 0 50px 25px;
-            }
             a {
                 color: black;
                 margin: 0 0 25px 25px;
